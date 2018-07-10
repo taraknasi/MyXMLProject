@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT annuaire (personne)+>
+<!ELEMENT personne (prenom,nom,telephone+)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
